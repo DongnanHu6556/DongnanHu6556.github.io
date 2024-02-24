@@ -1,9 +1,8 @@
 ---
 title: "Motion Planning and Control of Hybrid Flying-Crawling Quadrotors"
-permalink: /publication/Motion Planning and Control of Hybrid Flying-Crawling Quadrotors
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+excerpt: 'Dongnan Hu, Ruihao Xia, Xin Jin, and Yang Tang*'
 venue: 'European Control Conference 2024'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+paperurl: '[https://arxiv.org/abs/2312.08718](https://arxiv.org/abs/2312.08718)'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

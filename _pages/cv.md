@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* M.S. in Control Engineering, East China University of Science and Technology, September,2021-Present
-* B.S. in Mechanical Engineering, Nanjing Tech University, September,2018-June,2020
+* M.S. in Control Engineering, East China University of Science and Technology, September 2021- Present
+* B.S. in Mechanical Engineering, Nanjing Tech University, September 2018- June 2020
 
 Publications
 ======
@@ -20,45 +20,22 @@ Publications
   * Preprint: [https://arxiv.org/abs/2312.08718](https://arxiv.org/abs/2312.08718)
   * Attached video: [https://youtu.be/G-84DAaqdJw](https://youtu.be/G-84DAaqdJw)
 
+Research Interest
+======
+* Autonomous Navigation
+* Motion Planning and Control
+* Mobile Robotics
+
 Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* "Motion Planning and Control of Hybrid Flying-Crawling Quadrotors", June 2022- November 2023
+  * I proposed a planner that generates hybrid terrestrial-aerial trajectories satisfying the kinematic and dynamic requirements of the multimodal quadrotors.
+  * Given the reliance on flight autopilots for crawling motions, quadrotors cannot independently adjust the speeds of every motor. I developed a controller enabling ground trajectory tracking within this constraint.
+  * Supervisor: Prof. Yang Tang
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Programing Language: C/C++, Python
+* Research Tool: Matlab
+* Robot Tool: ROS, PX4
+* Mechanical software: Solidworks, Catia, Workbench

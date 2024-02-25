@@ -17,8 +17,8 @@ Education
 Publications
 ======
 * Dongnan Hu, Ruihao Xia, Xin Jin, Yang Tang, Motion Planning and Control of Hybrid Flying-Crawling Quadrotors, the European Control Conference 2024. (Under review)
-  Preprint:
-  Attached video:
+  \\ Preprint:
+  \\ Attached video:
 
 Research experience
 ======

@@ -20,19 +20,25 @@ Publications
   * Preprint: [https://arxiv.org/abs/2312.08718](https://arxiv.org/abs/2312.08718)
   * Attached video: [https://youtu.be/G-84DAaqdJw](https://youtu.be/G-84DAaqdJw)
 
-Research Interest
-======
-* Autonomous Navigation
-* Motion Planning and Control
-* Mobile Robotics
-
 Research experience
 ======
 * "Motion Planning and Control of Hybrid Flying-Crawling Quadrotors", June 2022- November 2023
   * I proposed a planner that generates hybrid terrestrial-aerial trajectories satisfying the kinematic and dynamic requirements of the multimodal quadrotors.
   * Given the reliance on flight autopilots for crawling motions, quadrotors cannot independently adjust the speeds of every motor. I developed a controller enabling ground trajectory tracking within this constraint.
   * Supervisor: Prof. Yang Tang
-  
+
+Research Interest
+======
+* Autonomous Navigation
+* Motion Planning and Control
+* Mobile Robotics
+
+Awards and Achievements
+======
+* Second-class Scholarship for Master's Academic Achievement in the session of 2022-2023.
+* First-class Scholarship for Master's Academic Achievement in the session of 2021-2022.
+* Second Prize in the 18th "Huawei Cup" Chinese Graduate Mathematical Modeling Competition in December 2021.
+
 Skills
 ======
 * Programing Language: C/C++, Python

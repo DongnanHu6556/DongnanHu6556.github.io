@@ -11,11 +11,16 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Control Engineering, East China University of Science and Technology, September,2021-Present
+* B.S. in Mechanical Engineering, Nanjing Tech University, September,2018-June,2020
 
-Work experience
+Publications
+======
+* Dongnan Hu, Ruihao Xia, Xin Jin, Yang Tang, Motion Planning and Control of Hybrid Flying-Crawling Quadrotors, the European Control Conference 2024. (Under review)
+  Preprint:
+  Attached video:
+
+Research experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * Github University
@@ -41,11 +46,6 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Talks
 ======

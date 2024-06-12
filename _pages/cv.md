@@ -24,7 +24,7 @@ Research experience
 ======
 * "Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors", June 2022- November 2023
   * I proposed a planner that generates hybrid terrestrial-aerial trajectories satisfying the kinematic and dynamic requirements of the multimodal quadrotors.
-  * Given the processing time on model transition, the quadrotors cannot track the trajectory during transitions between terrestrial and aerial phases. I developed a trajectory-tracking algorithm by avoiding the tracking of terrestrial-aerial junctions and re-planning the trajectory  compensating for the disadvantage of the extended deformation time required by the quadrotor.
+  * Given the processing time on model transition, the quadrotors cannot track the trajectory during transitions between terrestrial and aerial phases. I developed a trajectory-tracking algorithm by avoiding the tracking of terrestrial-aerial junctions and re-planning the trajectory, compensating for the disadvantage of the extended deformation time required by the quadrotor.
   * Supervisor: Prof. Yang Tang
 
 Research Interest

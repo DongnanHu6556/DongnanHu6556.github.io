@@ -16,15 +16,15 @@ Education
 
 Publications
 ======
-* **Dongnan Hu**, Ruihao Xia, Xin Jin, Yang Tang, Motion Planning and Control of Hybrid Flying-Crawling Quadrotors, the European Control Conference 2024. (Under review)
+* **Dongnan Hu**, Ruihao Xia, Xin Jin, Yang Tang, Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors, the 2024 Annual Conference of the IEEE Industrial Electronics Society. (Under review)
   * Preprint: [https://arxiv.org/abs/2312.08718](https://arxiv.org/abs/2312.08718)
-  * Attached video: [https://youtu.be/G-84DAaqdJw](https://youtu.be/G-84DAaqdJw)
+  * Attached video: [https://youtu.be/nxFqLxel4c0](https://youtu.be/nxFqLxel4c0)
 
 Research experience
 ======
-* "Motion Planning and Control of Hybrid Flying-Crawling Quadrotors", June 2022- November 2023
+* "Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors", June 2022- November 2023
   * I proposed a planner that generates hybrid terrestrial-aerial trajectories satisfying the kinematic and dynamic requirements of the multimodal quadrotors.
-  * Given the reliance on flight autopilots for crawling motions, quadrotors cannot independently adjust the speeds of every motor. I developed a controller enabling ground trajectory tracking within this constraint.
+  * Given the processing time on model transition, the quadrotors cannot track the trajectory during transitions between terrestrial and aerial phases. I developed a trajectory-tracking algorithm by avoiding the tracking of terrestrial-aerial junctions and re-planning the trajectory  compensating for the disadvantage of the extended deformation time required by the quadrotor.
   * Supervisor: Prof. Yang Tang
 
 Research Interest

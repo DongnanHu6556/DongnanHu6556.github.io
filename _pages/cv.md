@@ -16,7 +16,7 @@ Education
 
 Publications
 ======
-* **Dongnan Hu**, Ruihao Xia, Xin Jin, Yang Tang, Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors, the 2024 Annual Conference of the IEEE Industrial Electronics Society. (Under review)
+* **Dongnan Hu**, Ruihao Xia, Xin Jin, Yang Tang, Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors, the 2024 Annual Conference of the IEEE Industrial Electronics Society. 
   * Preprint: [https://arxiv.org/abs/2312.08718](https://arxiv.org/abs/2312.08718)
   * Attached video: [https://youtu.be/nxFqLxel4c0](https://youtu.be/nxFqLxel4c0)
 

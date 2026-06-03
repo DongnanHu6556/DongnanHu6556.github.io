@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dongnan Hu - personal academic homepage">
+  <meta name="keywords" content="Dongnan Hu, autonomous navigation, motion planning, mobile robotics, ECUST">
+  <meta name="author" content="Dongnan Hu">
+  <meta property="og:title" content="Dongnan Hu">
+  <meta property="og:description" content="Personal academic homepage of Dongnan Hu.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dongnanhu6556.github.io/">
+  <title>Dongnan Hu's Homepage</title>
+
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!--
+    Image usage:
+    - images/graduated_photo.png: Home portrait.
+    - images/research-uav-navigation.png: selected publication and hybrid robot project thumbnail.
+    - images/research-3d-reconstruction.png: future/placeholder research direction thumbnail.
+    - images/research-aerial-manipulator.png: future/placeholder research direction thumbnail.
+  -->
+
+  <nav class="sidebar" id="sidebar" aria-label="Primary navigation" tabindex="-1">
+    <a class="brand" href="#home" aria-label="Dongnan Hu home">DONGNAN</a>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="mobile-header">
+    <a href="#home">DONGNAN</a>
+    <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar">
+      <span aria-hidden="true">&#9776;</span>
+    </button>
+  </header>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <main class="page">
+    <div class="content">
+      <section class="section home-section" id="home">
+        <h1>Dongnan Hu 胡东南</h1>
+        <div class="intro-grid">
+          <figure class="portrait">
+            <img src="images/graduated_photo.png" alt="Dongnan Hu holding a hybrid flying-crawling quadrotor">
+          </figure>
+          <div class="intro-copy">
+            <p class="tagline">Autonomous Navigation | Motion Planning and Control | Mobile Robotics</p>
+            <p>
+              Welcome! I am Dongnan Hu. I received my M.S. degree in Control Engineering from
+              <a href="https://www.ecust.edu.cn/main.htm" target="_blank" rel="noreferrer">East China University of Science and Technology (ECUST)</a>
+              in June 2024, supervised by
+              <a href="http://www.ytangecust.com/" target="_blank" rel="noreferrer">Prof. Yang Tang</a>.
+            </p>
+            <p>
+              My research interests include autonomous navigation, motion planning and control,
+              and mobile robotics. I enjoy building robotic systems where planning algorithms,
+              control design, and real-world experiments meet.
+            </p>
+            <div class="quick-links" aria-label="Profile links">
+              <a href="mailto:dongnanhu6556@gmail.com">Email</a>
+              <a href="assets/DongnanHu_CV.pdf">CV</a>
+              <a href="https://arxiv.org/abs/2312.08718" target="_blank" rel="noreferrer">Preprint</a>
+              <a href="https://youtu.be/nxFqLxel4c0" target="_blank" rel="noreferrer">Video</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-06">2026/06</time><span>Homepage redesigned as a lightweight static GitHub Pages site.</span></li>
+          <li><time datetime="2024-06">2024/06</time><span>Received my M.S. degree in Control Engineering from ECUST.</span></li>
+          <li><time datetime="2024-06">2024/06</time><span>Our work on hybrid flying-crawling quadrotors was accepted by IECON 2024.</span></li>
+          <li><time datetime="2023-12">2023/12</time><span>Released the preprint on trajectory planning and tracking of hybrid flying-crawling quadrotors.</span></li>
+        </ul>
+      </section>
+
+      <section class="section" id="publications">
+        <h2>Selected Publications</h2>
+
+        <article class="pub-item">
+          <figure class="pub-media">
+            <img src="images/research-uav-navigation.png" alt="Aerial robot navigation in a lab">
+          </figure>
+          <div class="pub-copy">
+            <h3>Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors</h3>
+            <p><strong>Dongnan Hu</strong>, Ruihao Xia, Xin Jin, Yang Tang</p>
+            <p><strong><em>IECON 2024 - The 2024 Annual Conference of the IEEE Industrial Electronics Society</em></strong></p>
+            <div class="paper-links">
+              <a href="https://arxiv.org/abs/2312.08718" target="_blank" rel="noreferrer">arXiv</a>
+              <a href="files/Motion_Planning_and_Control_of_Hybrid_Flying_Crawling_Quadrotors.pdf">pdf</a>
+              <a href="https://youtu.be/nxFqLxel4c0" target="_blank" rel="noreferrer">video</a>
+            </div>
+          </div>
+        </article>
+
+        <h3 class="subsection-title">Research Interests</h3>
+        <ul class="compact-list">
+          <li><strong>Autonomous navigation:</strong> planning and control methods for robots in complex environments.</li>
+          <li><strong>Motion planning and control:</strong> trajectory generation, tracking, and replanning for hybrid robotic systems.</li>
+          <li><strong>Mobile robotics:</strong> experimental platforms that connect algorithms with hardware validation.</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2>Projects</h2>
+
+        <article class="project-item">
+          <div class="project-heading">
+            <h3>Hybrid Flying-Crawling Quadrotor</h3>
+            <span>Jun 2022 - Nov 2023</span>
+          </div>
+          <p>
+            Designed planning and tracking methods for a multimodal quadrotor capable of terrestrial-aerial motion.
+            The planner generates hybrid trajectories satisfying kinematic and dynamic requirements, while the
+            tracking strategy handles terrestrial-aerial transitions through junction-aware replanning.
+          </p>
+          <figure class="project-media">
+            <img src="images/research-uav-navigation.png" alt="Hybrid aerial robot navigation concept">
+          </figure>
+        </article>
+
+        <article class="project-item">
+          <div class="project-heading">
+            <h3>Perception-Aware Robotic Navigation</h3>
+            <span>Research Direction</span>
+          </div>
+          <p>
+            Exploring how robot perception, mapping, and planning can be coupled to improve autonomous operation
+            in uncertain environments.
+          </p>
+          <figure class="project-media">
+            <img src="images/research-3d-reconstruction.png" alt="Robotic 3D reconstruction concept">
+          </figure>
+        </article>
+
+        <article class="project-item">
+          <div class="project-heading">
+            <h3>Experimental Mobile Robot Systems</h3>
+            <span>Research Direction</span>
+          </div>
+          <p>
+            Building and validating robotic platforms where hardware constraints, control performance, and planning
+            requirements are considered together.
+          </p>
+          <figure class="project-media">
+            <img src="images/research-aerial-manipulator.png" alt="Aerial robot platform concept">
+          </figure>
+        </article>
+      </section>
+
+      <section class="section" id="timeline">
+        <h2>Timeline</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2024</div>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>M.S. in Control Engineering</h3>
+              <p>East China University of Science and Technology, supervised by Prof. Yang Tang.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2022 - 2023</div>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>Hybrid Robot Research</h3>
+              <p>Trajectory planning and tracking for hybrid flying-crawling quadrotors.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2021 - 2024</div>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>Graduate Study at ECUST</h3>
+              <p>Focused on autonomous navigation, motion planning, control, and mobile robotics.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2018 - 2020</div>
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-body">
+              <h3>B.S. in Mechanical Engineering</h3>
+              <p>Nanjing Tech University.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:dongnanhu6556@gmail.com">dongnanhu6556@gmail.com</a></p>
+        <p>Location: Shanghai, China</p>
+        <p>
+          Materials:
+          <a href="assets/DongnanHu_CV.pdf">CV</a>,
+          <a href="files/Motion_Planning_and_Control_of_Hybrid_Flying_Crawling_Quadrotors.pdf">paper PDF</a>,
+          <a href="https://youtu.be/nxFqLxel4c0" target="_blank" rel="noreferrer">video</a>
+        </p>
+      </section>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Dongnan Hu. Last updated June 2026.</p>
+      </footer>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

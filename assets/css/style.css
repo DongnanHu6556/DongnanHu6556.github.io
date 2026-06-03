@@ -287,6 +287,15 @@ p {
   object-fit: contain;
 }
 
+.project-media img.scaled-image {
+  display: block;
+  width: min(100%, var(--image-width));
+  margin: 0 auto;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .pub-copy {
   min-width: 0;
 }

@@ -278,6 +278,13 @@ p {
   box-shadow: 0 6px 18px rgba(23, 34, 38, 0.1);
 }
 
+.project-media img.full-image {
+  display: block;
+  aspect-ratio: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .pub-copy {
   min-width: 0;
 }

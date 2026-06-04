@@ -417,6 +417,12 @@ p {
   text-align: center;
 }
 
+.timeline-logo img {
+  width: 78%;
+  height: 78%;
+  object-fit: contain;
+}
+
 .timeline-logo-accent {
   color: #9d2f2f;
 }

@@ -130,13 +130,14 @@
         <article class="project-item">
           <div class="project-heading">
             <h3>Deep Reinforcement Learning based Multi-UAV Target Search in Low Rise Urban Environments</h3>
-            <span>September, 2025 - April. 2026</span>
+            <span>September, 2025 - May, 2026</span>
           </div>
-          <p>
-            Designed planning and tracking methods for a multimodal quadrotor capable of terrestrial-aerial motion.
-            The planner generates hybrid trajectories satisfying kinematic and dynamic requirements, while the
-            tracking strategy handles terrestrial-aerial transitions through junction-aware replanning.
-          </p>
+          <!-- <p class="project-supervisor"><em>Supervised by Prof. Guillaume Sartoretti</em></p> -->
+          <ul class="project-points">
+            <li>Assembled a UAV and integrated an onboard computer, flight controller, and LiDAR.</li>
+            <li>Built a ROS 2-based UAV autonomous navigation system: integrating reinforcement learning (exploration and goal generation) -&gt; trajectory planning (planning trajectories to the goal) -&gt; PX4-based controller (trajectory tracking).</li>
+            <li>A swarm composed of three UAVs was constructed to perform autonomous multi-UAV exploration.</li>
+          </ul>
           <figure class="project-media">
             <img class="scaled-image" style="--image-width: 820px;" src="images/big_vicon_room.jpg" alt="Multi-UAV Planning">
           </figure>
@@ -147,10 +148,11 @@
             <h3>Trajectory Planning and Tracking of Hybrid Flying-Crawling Quadrotors</h3>
             <span>June, 2022 - November, 2023</span>
           </div>
-          <p>
-            Exploring how robot perception, mapping, and planning can be coupled to improve autonomous operation
-            in uncertain environments.
-          </p>
+          <!-- <p class="project-supervisor"><em>Supervised by Prof. Yang Tang</em></p> -->
+          <ul class="project-points">
+            <li>Constrained ground-motion yaw angles to keep hybrid trajectories feasible for both crawling and flying modes.</li>
+            <li>Developed transition-aware tracking with junction skipping and replanning to handle model-switching delays between terrestrial and aerial phases.</li>
+          </ul>
           <figure class="project-media">
             <img class="full-image" src="images/hyfcq_exp02.png" alt="Robotic 3D reconstruction concept">
           </figure>
@@ -161,10 +163,9 @@
             <h3>Motion planning and control of a morphing quadrotor in restricted scenarios</h3>
             <span>February, 2023 - April, 2023</span>
           </div>
-          <p>
-            Building and validating robotic platforms where hardware constraints, control performance, and planning
-            requirements are considered together.
-          </p>
+          <ul class="project-points">
+            <li>Structural design and assembly of a morphing UAV.</li>
+          </ul>
           <figure class="project-media">
             <img class="scaled-image" style="--image-width: 620px;" src="images/morphing uav.png" alt="Aerial robot platform concept">
           </figure>

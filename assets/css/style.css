@@ -337,6 +337,22 @@ p {
   font-weight: 500;
 }
 
+.project-supervisor {
+  margin-bottom: 6px;
+}
+
+.project-points {
+  display: grid;
+  gap: 4px;
+  list-style-type: circle;
+  margin: 0 0 14px 20px;
+  padding: 0;
+}
+
+.project-points li::marker {
+  color: #2f76bd;
+}
+
 .project-media {
   margin-top: 14px;
 }

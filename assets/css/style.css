@@ -364,18 +364,19 @@ p {
 .timeline::before {
   content: "";
   position: absolute;
-  top: 12px;
-  bottom: 14px;
-  left: 144px;
+  top: 34px;
+  bottom: 34px;
+  left: 172px;
   width: 2px;
-  background: var(--line);
+  background: #dfe3e6;
 }
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 110px 34px minmax(0, 1fr);
-  gap: 16px;
-  padding: 5px 0 26px;
+  grid-template-columns: 112px 84px minmax(0, 1fr);
+  gap: 18px;
+  align-items: start;
+  padding: 0 0 28px;
 }
 
 .timeline-item:last-child {
@@ -388,23 +389,45 @@ p {
   font-size: 0.95rem;
   font-weight: 700;
   line-height: 1.35;
+  padding-top: 22px;
   text-align: right;
 }
 
-.timeline-dot {
+.timeline-logo {
   z-index: 1;
-  width: 16px;
-  height: 16px;
-  margin: 4px auto 0;
-  border: 3px solid #ffffff;
+  display: grid;
+  place-items: center;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto;
+  border: 1px solid #e5e9ec;
   border-radius: 50%;
-  background: #7d9a77;
-  box-shadow: 0 0 0 1px #cad4c4;
+  background: #ffffff;
+  color: #286b77;
+  box-shadow: 0 6px 18px rgba(23, 34, 38, 0.12);
+}
+
+.timeline-logo span {
+  max-width: 52px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.timeline-logo-accent {
+  color: #9d2f2f;
+}
+
+.timeline-logo-muted {
+  color: #416a9c;
 }
 
 .timeline-body {
   min-width: 0;
-  padding-bottom: 24px;
+  padding: 2px 0 25px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -413,9 +436,27 @@ p {
   border-bottom: none;
 }
 
+.timeline-body h3 {
+  margin: 0 0 3px;
+  font-size: 1.05rem;
+}
+
+.timeline-body p {
+  margin-bottom: 2px;
+}
+
+.timeline-place {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .timeline-body p,
 .contact-section p {
   color: var(--muted);
+}
+
+.timeline-body .timeline-place {
+  color: var(--text);
 }
 
 .site-footer {
@@ -527,27 +568,36 @@ p {
   }
 
   .timeline::before {
-    left: 8px;
+    left: 27px;
   }
 
   .timeline-item {
-    grid-template-columns: 24px minmax(0, 1fr);
-    gap: 12px;
+    grid-template-columns: 54px minmax(0, 1fr);
+    gap: 14px;
   }
 
   .timeline-date {
     grid-column: 2;
+    padding-top: 0;
     text-align: left;
   }
 
-  .timeline-dot {
+  .timeline-logo {
     grid-column: 1;
     grid-row: 1 / span 2;
-    margin: 4px 0 0;
+    width: 54px;
+    height: 54px;
+    margin: 0;
+  }
+
+  .timeline-logo span {
+    max-width: 42px;
+    font-size: 0.64rem;
   }
 
   .timeline-body {
     grid-column: 2;
+    padding-top: 0;
   }
 
   .site-footer {
